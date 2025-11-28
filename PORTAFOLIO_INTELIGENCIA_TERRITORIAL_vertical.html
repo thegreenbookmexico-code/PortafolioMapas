@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portafolio de Inteligencia Territorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Fuentes similares al portafolio de Nuevo pacto por el agua -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --verde-oscuro: #005829;
+      --verde-boton: #00b86b;
+      --verde-boton-oscuro: #008b50;
+      --texto-principal: #063b25;
+      --fondo: #f3f5f4;
+      --card-radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--fondo);
+      color: var(--texto-principal);
+    }
+
+    .hero {
+      background: var(--verde-oscuro);
+      color: #ffffff;
+      padding: 40px 0 60px;
+    }
+
+    .hero-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .hero-kicker {
+      font-family: "Baloo 2", system-ui, sans-serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .hero-title {
+      margin-top: 10px;
+      font-family: "Baloo 2", system-ui, sans-serif;
+      font-size: 3.1rem;
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      line-height: 1.1;
+    }
+
+    .hero-title span.emoji {
+      font-size: 2.6rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 24px 72px;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: var(--card-radius);
+      padding: 24px 24px 28px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-title {
+      font-family: "Baloo 2", system-ui, sans-serif;
+      font-size: 1.7rem;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .card p {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .card-footer {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card-button {
+      align-self: flex-start;
+      border: none;
+      border-radius: 999px;
+      padding: 11px 26px;
+      font-size: 0.98rem;
+      font-weight: 700;
+      cursor: pointer;
+      color: #ffffff;
+      background: linear-gradient(135deg, var(--verde-boton), var(--verde-boton-oscuro));
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+    }
+
+    .card-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-button:active {
+      transform: translateY(0);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .link-menu {
+      margin-top: 6px;
+      padding-top: 10px;
+      border-top: 1px solid #e2e8f0;
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.94rem;
+    }
+
+    .link-menu a {
+      color: #046c4e;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .link-menu a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 24px 16px 56px;
+      }
+      .hero-title {
+        font-size: 2.5rem;
+      }
+      .card {
+        padding: 20px 18px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-kicker">Visualizaciones del proyecto</div>
+      <div class="hero-title">
+        <span class="emoji">🗺️</span>
+        <span class="emoji">🗳️</span>
+        Portafolio de Inteligencia Territorial
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card-grid">
+
+      <!-- TARJETA 1 -->
+      <article class="card">
+        <div>
+          <h2 class="card-title">Elección judicial 2025 (México)</h2>
+          <p>El 1 de junio de 2025, México vivió la primera elección popular del Poder Judicial en su historia y la primera a nivel mundial en la que todas las altas autoridades judiciales federales se eligieron por voto directo. En una sola jornada se disputaron 881 cargos: 9 ministras y ministros de la Suprema Corte, magistraturas del Tribunal de Disciplina Judicial, del Tribunal Electoral y centenares de juezas y jueces de circuito y de distrito.</p>
+          <p>A diferencia de las elecciones federales “normales”, el país se dividió en distritos judiciales, las boletas ordenaron a las candidaturas por número y la complejidad de materias e instituciones hizo que la lectura del resultado fuera especialmente difícil. Este bloque de mapas se centra en traducir esa elección inédita al lenguaje del territorio: secciones, distritos judiciales y patrones de voto.</p>
+        </div>
+
+        <div class="card-footer">
+          <a class="card-button" href="#" onclick="toggleMenu('menu-judicial'); return false;">
+            Ver mapas de la elección judicial →
+          </a>
+
+          <div id="menu-judicial" class="link-menu">
+            <a href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_PJ_LuzMariaFlores_JD10_2025.html" target="_blank">
+              Luz María Flores Alva – Candidata a jueza de distrito en materia administrativa del Poder Judicial de la Federación, Distrito Judicial 10, Ciudad de México.
+            </a>
+            <a href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_PJ_MariaDelCarmenMontiel_JD3_2025.html" target="_blank">
+              María del Carmen Montiel Rodríguez – Candidata a jueza de distrito en materia penal del Poder Judicial de la Federación, Distrito Judicial 3, Ciudad de México.
+            </a>
+            <a href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_PJ_SalvadorObregon_JD3_2025.html" target="_blank">
+              Salvador Obregón – Candidato a magistrado en materia del trabajo del Poder Judicial de la Federación, Distrito Judicial 3, Ciudad de México.
+            </a>
+            <a href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_MIREYA_MENDIENTA_TLAXCALA_DJ1.html" target="_blank">
+              Mireya Mendienta – Candidata a magistrada en materia administrativa del Poder Judicial de la Federación, Distrito Judicial 1, Tlaxcala.
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- TARJETA 2 -->
+      <article class="card">
+        <div>
+          <h2 class="card-title">Candidatura a diputado local de Luis León D17 en la Ciudad de México</h2>
+          <p>En este caso se analiza una elección a diputación local en un distrito históricamente marcado por el voto duro de un partido tradicional, mientras un partido emergente buscaba abrirse espacio. El mapa explora cómo, a partir del comportamiento electoral por sección, se identificaron bolsas de voto potencial, se priorizaron colonias clave y se diseñó una estrategia territorial austera pero focalizada.</p>
+          <p>El resultado muestra que, incluso en demarcaciones adversas, el uso de inteligencia en datos permite maximizar cada recorrido, cada brigada y cada peso invertido, abriendo oportunidades competitivas donde antes casi no existían.</p>
+        </div>
+
+        <div class="card-footer">
+          <a class="card-button" href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_D17_LuisLeon_MC_PCT.html" target="_blank">
+            Ver mapa de diputación local →
+          </a>
+        </div>
+      </article>
+
+      <!-- TARJETA 3 -->
+      <article class="card">
+        <div>
+          <h2 class="card-title">Keiko Fujimori rumbo a 2026</h2>
+          <p>A lo largo de las elecciones generales de Perú de 2011, 2016 y 2021, Keiko Fujimori ha competido tres veces por la Presidencia de la República, alcanzando el segundo lugar en todas ellas y llegando a la segunda vuelta en dos de esos procesos.</p>
+          <p>El mapa incluido en este portafolio parte de esos resultados territoriales previos y los proyecta hacia una nueva contienda presidencial, para identificar dónde se ubica realmente su base dura, en qué departamentos y distritos se concentra el voto competitivo y en qué zonas se abren ventanas para el voto flotante. Es un ejemplo de cómo la cartografía electoral puede orientar decisiones estratégicas sobre rutas de campaña, segmentación de mensajes y construcción de alianzas en campañas presidenciales complejas.</p>
+        </div>
+
+        <div class="card-footer">
+          <a class="card-button" href="https://thegreenbookmexico-code.github.io/PortafolioMapas/mapa_keiko_capas.html" target="_blank">
+            Ver mapa de Keiko Fujimori →
+          </a>
+        </div>
+      </article>
+
+      <!-- TARJETA 4 -->
+      <article class="card">
+        <div>
+          <h2 class="card-title">Mapas mixtos: leer varias elecciones en un solo territorio</h2>
+          <p>Además de los casos individuales, este portafolio incluye un mapa mixto que superpone resultados de la elección judicial con una elección legislativa previa en el mismo territorio. Este tipo de visualización combinada permite construir inteligencia histórica del territorio: entender qué pasa cuando se cruzan distintas boletas, años y tipos de cargo (judiciales y legislativos) y cómo eso puede informar decisiones futuras de campaña, organización ciudadana o defensa de derechos.</p>
+          <p>Además, estos mapas mixtos pueden incorporar features específicas según las necesidades del proyecto como buscadores de direcciones para optimizar rutas de brigadeo y visitas en territorio o notas explicativas. Las herramientas interactivas pueden adaptarse al contexto y a lo que cada equipo necesita responder con datos.</p>
+        </div>
+
+        <div class="card-footer">
+          <a class="card-button" href="https://thegreenbookmexico-code.github.io/PortafolioMapas/MAPA_COMPARADO_LUISMA_PJ_2024_2025.html" target="_blank">
+            Ver mapa combinado →
+          </a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <script>
+    function toggleMenu(id) {
+      var menu = document.getElementById(id);
+      if (!menu) return;
+      if (menu.style.display === "flex") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "flex";
+      }
+    }
+  </script>
+</body>
+</html>
